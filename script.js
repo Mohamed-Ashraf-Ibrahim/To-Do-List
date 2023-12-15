@@ -96,10 +96,9 @@ const addTask = () => {
 
 // Handle The Enter Key
 addEventListener("keydown", (e) => {
-  if (e.key === "Enter") {
-    addTask();
-  }
+  if (e.key === "Enter") return addTask();
 });
+
 
 // Add event listeners to tasks after loading data
 const addEventListenersToTasks = () => {
