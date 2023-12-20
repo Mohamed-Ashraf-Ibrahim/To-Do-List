@@ -17,7 +17,7 @@ html {
 
 .todo-app {
   margin: 100px auto 20px;
-  max-width: 500px;
+  max-width: 800px;
   background-color: white;
   padding: 30px 50px 80px 80px;
   border-radius: 15px;
@@ -38,13 +38,15 @@ html {
   padding: 15px;
 }
 
-.tasks-container .input-box {
+.tasks-container .text-box {
   width: 100%;
-  padding: 10px;
+  padding: 20px 10px;
   font-size: 22px;
+  overflow-wrap: break-word;
+  line-height: 28px;
 }
 
-.tasks-container .input-box::placeholder {
+.tasks-container .text-box::placeholder {
   font-size: 15px;
 }
 
@@ -72,9 +74,11 @@ html {
   background-color: #5b5f62;
   color: white;
   border-radius: 5px;
-  padding: 12px;
+  padding: 20px;
   display: flex;
   align-items: center;
+  max-width: 700px;
+  overflow: visible;
 }
 
 .tasks-list li .delete-btn {
@@ -93,7 +97,9 @@ html {
 
 .task-value {
   margin-left: 10px;
-  text-align: center;
+  /* text-align: center; */
+  width: 100%;
+  overflow-wrap: break-word;
 }
 
 @media (max-width: 567px) {
