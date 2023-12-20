@@ -95,3 +95,37 @@ html {
   margin-left: 10px;
   text-align: center;
 }
+
+@media (max-width: 567px) {
+  .todo-app {
+    width: 100%;
+    padding: 20px; 
+  }
+
+  .tasks-container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .tasks-container .text-box {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px; 
+  }
+
+  .add-btn {
+    margin-left: 10px;
+  }
+
+  .tasks-list li {
+    margin-top: 15px;
+    padding: 15px;
+    width: 100%;
+    max-width: none;
+    font-size: 14px; 
+  }
+  
+  .tasks-list li .delete-btn {
+    padding: 5px;
+  }
+}
