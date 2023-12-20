@@ -1,5 +1,5 @@
 const addBtn = document.querySelector(".add-btn");
-const inputBox = document.querySelector(".input-box");
+const inputBox = document.querySelector(".text-box");
 const tasks = document.querySelector(".tasks-list");
 
 // Create CheckBox
@@ -93,12 +93,10 @@ const addTask = () => {
   inputBox.value = "";
 };
 
-
 // Handle The Enter Key
 addEventListener("keydown", (e) => {
   if (e.key === "Enter") return addTask();
 });
-
 
 // Add event listeners to tasks after loading data
 const addEventListenersToTasks = () => {
