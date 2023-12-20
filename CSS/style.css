@@ -106,6 +106,7 @@ html {
   .todo-app {
     width: 100%;
     padding: 20px; 
+    background-color:red;
   }
 
   .tasks-container {
