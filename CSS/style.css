@@ -111,6 +111,7 @@ html {
   .tasks-container {
     width: 100%;
     padding: 10px;
+    background-color:red;
   }
 
   .tasks-container .text-box {
